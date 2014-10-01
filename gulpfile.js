@@ -9,7 +9,7 @@ var through = require('through');
 var rm = require('gulp-rm');
 var uglify = require('gulp-uglify');
 var vulcanize = require('gulp-vulcanize');
-
+//test comment added
 gulp.task('imports', ['clean'], function () {
   return bower({
     paths: {
